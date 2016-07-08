@@ -1,0 +1,1284 @@
+[
+{
+"id": "4251096301",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62835530,
+"name": "karlpokus/feed",
+"url": "https://api.github.com/repos/karlpokus/feed"
+},
+"payload": {
+"push_id": 1194253167,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "60f1a9ddc29be8108d1b11f3c437e05c2e65be98",
+"before": "7a48350281ba2016025e098013f19d41f14344d6",
+"commits": [
+{
+"sha": "60f1a9ddc29be8108d1b11f3c437e05c2e65be98",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "removed link",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/feed/commits/60f1a9ddc29be8108d1b11f3c437e05c2e65be98"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-08T09:59:45Z"
+},
+{
+"id": "4250698017",
+"type": "WatchEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 931039,
+"name": "substack/node-browserify",
+"url": "https://api.github.com/repos/substack/node-browserify"
+},
+"payload": {
+"action": "started"
+},
+"public": true,
+"created_at": "2016-07-08T08:23:37Z"
+},
+{
+"id": "4250368232",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62835530,
+"name": "karlpokus/feed",
+"url": "https://api.github.com/repos/karlpokus/feed"
+},
+"payload": {
+"push_id": 1194004301,
+"size": 2,
+"distinct_size": 2,
+"ref": "refs/heads/master",
+"head": "7a48350281ba2016025e098013f19d41f14344d6",
+"before": "c1933422b84ee23ccdcfc6327de6dd57c571a577",
+"commits": [
+{
+"sha": "8e0afd90a2d0e030810aea85e8a06b561a9a51ac",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add todos",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/feed/commits/8e0afd90a2d0e030810aea85e8a06b561a9a51ac"
+},
+{
+"sha": "7a48350281ba2016025e098013f19d41f14344d6",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add codepen api",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/feed/commits/7a48350281ba2016025e098013f19d41f14344d6"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-08T06:39:49Z"
+},
+{
+"id": "4248476408",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62835530,
+"name": "karlpokus/feed",
+"url": "https://api.github.com/repos/karlpokus/feed"
+},
+"payload": {
+"ref": "master",
+"ref_type": "branch",
+"master_branch": "master",
+"description": "Feed with multiple APIs for a single user [WIP]",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-07T20:15:11Z"
+},
+{
+"id": "4248476324",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62835530,
+"name": "karlpokus/feed",
+"url": "https://api.github.com/repos/karlpokus/feed"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "Feed with multiple APIs for a single user [WIP]",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-07T20:15:11Z"
+},
+{
+"id": "4244486593",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 60910557,
+"name": "karlpokus/konstapel",
+"url": "https://api.github.com/repos/karlpokus/konstapel"
+},
+"payload": {
+"ref": "v1.2.0",
+"ref_type": "tag",
+"master_branch": "master",
+"description": "Authorization middleware for node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-07T06:04:16Z"
+},
+{
+"id": "4244486591",
+"type": "ReleaseEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 60910557,
+"name": "karlpokus/konstapel",
+"url": "https://api.github.com/repos/karlpokus/konstapel"
+},
+"payload": {
+"action": "published",
+"release": {
+"url": "https://api.github.com/repos/karlpokus/konstapel/releases/3603861",
+"assets_url": "https://api.github.com/repos/karlpokus/konstapel/releases/3603861/assets",
+"upload_url": "https://uploads.github.com/repos/karlpokus/konstapel/releases/3603861/assets{?name,label}",
+"html_url": "https://github.com/karlpokus/konstapel/releases/tag/v1.2.0",
+"id": 3603861,
+"tag_name": "v1.2.0",
+"target_commitish": "master",
+"name": "First release",
+"draft": false,
+"author": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"prerelease": false,
+"created_at": "2016-06-27T09:09:23Z",
+"published_at": "2016-07-07T06:04:16Z",
+"assets": [],
+"tarball_url": "https://api.github.com/repos/karlpokus/konstapel/tarball/v1.2.0",
+"zipball_url": "https://api.github.com/repos/karlpokus/konstapel/zipball/v1.2.0",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2016-07-07T06:04:16Z"
+},
+{
+"id": "4239070036",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"ref": "v0.2",
+"ref_type": "tag",
+"master_branch": "master",
+"description": "Temporarily mute the log. Resume and retrieve logged data later. For node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-06T07:58:37Z"
+},
+{
+"id": "4239070006",
+"type": "ReleaseEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"action": "published",
+"release": {
+"url": "https://api.github.com/repos/karlpokus/console.mute/releases/3595496",
+"assets_url": "https://api.github.com/repos/karlpokus/console.mute/releases/3595496/assets",
+"upload_url": "https://uploads.github.com/repos/karlpokus/console.mute/releases/3595496/assets{?name,label}",
+"html_url": "https://github.com/karlpokus/console.mute/releases/tag/v0.2",
+"id": 3595496,
+"tag_name": "v0.2",
+"target_commitish": "master",
+"name": "preserve history",
+"draft": false,
+"author": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"prerelease": false,
+"created_at": "2016-07-06T07:55:34Z",
+"published_at": "2016-07-06T07:58:36Z",
+"assets": [],
+"tarball_url": "https://api.github.com/repos/karlpokus/console.mute/tarball/v0.2",
+"zipball_url": "https://api.github.com/repos/karlpokus/console.mute/zipball/v0.2",
+"body": "Added preserve history to `resume` Reset is default. Backward compatible. No braking changes."
+}
+},
+"public": true,
+"created_at": "2016-07-06T07:58:36Z"
+},
+{
+"id": "4239060892",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"push_id": 1190335504,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "9901964c5a138d7c23023b4b162aa4445ce6d440",
+"before": "a6dd85e154db149cb07e49ee176d94dd8eb4ea3c",
+"commits": [
+{
+"sha": "9901964c5a138d7c23023b4b162aa4445ce6d440",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add preserve history. Backwards compatible",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/9901964c5a138d7c23023b4b162aa4445ce6d440"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-06T07:55:58Z"
+},
+{
+"id": "4238950118",
+"type": "CommitCommentEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"comment": {
+"url": "https://api.github.com/repos/karlpokus/console.mute/comments/18137624",
+"html_url": "https://github.com/karlpokus/console.mute/commit/9ec57f194b1f1c883a0b070e20364b5daef93750#commitcomment-18137624",
+"id": 18137624,
+"user": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"position": 6,
+"line": 6,
+"path": "console.js",
+"commit_id": "9ec57f194b1f1c883a0b070e20364b5daef93750",
+"created_at": "2016-07-06T07:23:10Z",
+"updated_at": "2016-07-06T07:23:10Z",
+"body": "This definitely works but I'm curious about what's happening on line 6. Am I overwriting the method `write` on the stream `process.stdout`? Is it still a stream? Should I implement a writeable stream instead of the `data array`?  @henryson @peterjaric"
+}
+},
+"public": true,
+"created_at": "2016-07-06T07:23:10Z"
+},
+{
+"id": "4238826756",
+"type": "WatchEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 2511434,
+"name": "voodootikigod/logo.js",
+"url": "https://api.github.com/repos/voodootikigod/logo.js"
+},
+"payload": {
+"action": "started"
+},
+"public": true,
+"created_at": "2016-07-06T06:41:09Z"
+},
+{
+"id": "4235448290",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 61061960,
+"name": "karlpokus/miffo",
+"url": "https://api.github.com/repos/karlpokus/miffo"
+},
+"payload": {
+"ref": "v0.2.3",
+"ref_type": "tag",
+"master_branch": "master",
+"description": "Just another wrapper for the mongodb driver in node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-05T15:14:04Z"
+},
+{
+"id": "4235448250",
+"type": "ReleaseEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 61061960,
+"name": "karlpokus/miffo",
+"url": "https://api.github.com/repos/karlpokus/miffo"
+},
+"payload": {
+"action": "published",
+"release": {
+"url": "https://api.github.com/repos/karlpokus/miffo/releases/3590008",
+"assets_url": "https://api.github.com/repos/karlpokus/miffo/releases/3590008/assets",
+"upload_url": "https://uploads.github.com/repos/karlpokus/miffo/releases/3590008/assets{?name,label}",
+"html_url": "https://github.com/karlpokus/miffo/releases/tag/v0.2.3",
+"id": 3590008,
+"tag_name": "v0.2.3",
+"target_commitish": "master",
+"name": "Pretty ready",
+"draft": false,
+"author": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"prerelease": false,
+"created_at": "2016-07-05T15:13:01Z",
+"published_at": "2016-07-05T15:14:03Z",
+"assets": [],
+"tarball_url": "https://api.github.com/repos/karlpokus/miffo/tarball/v0.2.3",
+"zipball_url": "https://api.github.com/repos/karlpokus/miffo/zipball/v0.2.3",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2016-07-05T15:14:04Z"
+},
+{
+"id": "4235444084",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 61061960,
+"name": "karlpokus/miffo",
+"url": "https://api.github.com/repos/karlpokus/miffo"
+},
+"payload": {
+"push_id": 1189185270,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "21cfb1c4bdb5907623b4e89ca9e984020c982220",
+"before": "1b93f7f94abeab35230473384ceb93e59230a500",
+"commits": [
+{
+"sha": "21cfb1c4bdb5907623b4e89ca9e984020c982220",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "bump version",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/21cfb1c4bdb5907623b4e89ca9e984020c982220"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-05T15:13:21Z"
+},
+{
+"id": "4235426973",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 61061960,
+"name": "karlpokus/miffo",
+"url": "https://api.github.com/repos/karlpokus/miffo"
+},
+"payload": {
+"push_id": 1189179477,
+"size": 2,
+"distinct_size": 2,
+"ref": "refs/heads/master",
+"head": "1b93f7f94abeab35230473384ceb93e59230a500",
+"before": "21871df788d3ea8a447eb572a17553cc9f5b6fdb",
+"commits": [
+{
+"sha": "a3b40452e6d7e3639a8aa783d990a0c9ad4065f5",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add cb to .start to docs and auth data for tests",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/a3b40452e6d7e3639a8aa783d990a0c9ad4065f5"
+},
+{
+"sha": "1b93f7f94abeab35230473384ceb93e59230a500",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "complete test suite",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/1b93f7f94abeab35230473384ceb93e59230a500"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-05T15:10:27Z"
+},
+{
+"id": "4231132804",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 61061960,
+"name": "karlpokus/miffo",
+"url": "https://api.github.com/repos/karlpokus/miffo"
+},
+"payload": {
+"push_id": 1187695192,
+"size": 4,
+"distinct_size": 4,
+"ref": "refs/heads/master",
+"head": "21871df788d3ea8a447eb572a17553cc9f5b6fdb",
+"before": "a274ed57ef2d31ac9b4457b63b5562b6862cd5f4",
+"commits": [
+{
+"sha": "673095b080495bcdfe004cc75a449ea0ccefe1f9",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add settings.json",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/673095b080495bcdfe004cc75a449ea0ccefe1f9"
+},
+{
+"sha": "49dc63fbb70bfad964f13d82a955a754aada3a0c",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "added cb to .start",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/49dc63fbb70bfad964f13d82a955a754aada3a0c"
+},
+{
+"sha": "ee5136eb9a13ef895a9a5c811d6b47233dd34df9",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "added tests WIP",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/ee5136eb9a13ef895a9a5c811d6b47233dd34df9"
+},
+{
+"sha": "21871df788d3ea8a447eb572a17553cc9f5b6fdb",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "clean up",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/miffo/commits/21871df788d3ea8a447eb572a17553cc9f5b6fdb"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-04T14:46:10Z"
+},
+{
+"id": "4230262846",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62403017,
+"name": "karlpokus/klocka",
+"url": "https://api.github.com/repos/karlpokus/klocka"
+},
+"payload": {
+"push_id": 1187396254,
+"size": 4,
+"distinct_size": 4,
+"ref": "refs/heads/master",
+"head": "e700a6edd4c72c66b6f3713571a8f31a7fc3eb5b",
+"before": "d06fd3e59fb2254150dcb4429e751017cf40a9cf",
+"commits": [
+{
+"sha": "08709f726cefbf72c360985f540c76b2de04dd01",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add travis",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/08709f726cefbf72c360985f540c76b2de04dd01"
+},
+{
+"sha": "ca029a951f7480af5f411927cc8d95303a3f07f0",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add comment on express rewrites .url",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/ca029a951f7480af5f411927cc8d95303a3f07f0"
+},
+{
+"sha": "0a0fb8d9c12b0b503a1c14807a66c60f092d4d10",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add rant on using server event request to start and badges",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/0a0fb8d9c12b0b503a1c14807a66c60f092d4d10"
+},
+{
+"sha": "e700a6edd4c72c66b6f3713571a8f31a7fc3eb5b",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add more keywords and bump version",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/e700a6edd4c72c66b6f3713571a8f31a7fc3eb5b"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-04T11:16:19Z"
+},
+{
+"id": "4229864094",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62403017,
+"name": "karlpokus/klocka",
+"url": "https://api.github.com/repos/karlpokus/klocka"
+},
+"payload": {
+"push_id": 1187257896,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "d06fd3e59fb2254150dcb4429e751017cf40a9cf",
+"before": "a4ad24c1d53add8028ce634595b5c88680326acc",
+"commits": [
+{
+"sha": "d06fd3e59fb2254150dcb4429e751017cf40a9cf",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add require and links to SO et al",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/d06fd3e59fb2254150dcb4429e751017cf40a9cf"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-04T09:35:35Z"
+},
+{
+"id": "4228296933",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62403017,
+"name": "karlpokus/klocka",
+"url": "https://api.github.com/repos/karlpokus/klocka"
+},
+"payload": {
+"push_id": 1186701219,
+"size": 4,
+"distinct_size": 4,
+"ref": "refs/heads/master",
+"head": "a4ad24c1d53add8028ce634595b5c88680326acc",
+"before": "d8f02ebaeff893c38ecf58b3950b31bb638c69d9",
+"commits": [
+{
+"sha": "60b8967e8f694c1b6be40a568cb265e548e329f1",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "no change",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/60b8967e8f694c1b6be40a568cb265e548e329f1"
+},
+{
+"sha": "210f22f3d75483d1396e0accfe7e49f2fa2f6eac",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add dev-dep and bump version",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/210f22f3d75483d1396e0accfe7e49f2fa2f6eac"
+},
+{
+"sha": "034fe45c090b227108dde9719e374143f9dbcbe5",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add node required version",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/034fe45c090b227108dde9719e374143f9dbcbe5"
+},
+{
+"sha": "a4ad24c1d53add8028ce634595b5c88680326acc",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "more tests",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/a4ad24c1d53add8028ce634595b5c88680326acc"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-03T19:44:49Z"
+},
+{
+"id": "4228272925",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"push_id": 1186692337,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "a6dd85e154db149cb07e49ee176d94dd8eb4ea3c",
+"before": "fde99c52c02a876b9afa3be870fb1005ab23dc63",
+"commits": [
+{
+"sha": "a6dd85e154db149cb07e49ee176d94dd8eb4ea3c",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add travis badge",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/a6dd85e154db149cb07e49ee176d94dd8eb4ea3c"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-03T19:24:30Z"
+},
+{
+"id": "4228268271",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"ref": "v0.1",
+"ref_type": "tag",
+"master_branch": "master",
+"description": "Temporarily mute the log. Resume and retrieve logged data later. For node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-03T19:20:26Z"
+},
+{
+"id": "4228268244",
+"type": "ReleaseEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"action": "published",
+"release": {
+"url": "https://api.github.com/repos/karlpokus/console.mute/releases/3577916",
+"assets_url": "https://api.github.com/repos/karlpokus/console.mute/releases/3577916/assets",
+"upload_url": "https://uploads.github.com/repos/karlpokus/console.mute/releases/3577916/assets{?name,label}",
+"html_url": "https://github.com/karlpokus/console.mute/releases/tag/v0.1",
+"id": 3577916,
+"tag_name": "v0.1",
+"target_commitish": "master",
+"name": "first draft",
+"draft": false,
+"author": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"prerelease": false,
+"created_at": "2016-07-03T19:17:31Z",
+"published_at": "2016-07-03T19:20:25Z",
+"assets": [],
+"tarball_url": "https://api.github.com/repos/karlpokus/console.mute/tarball/v0.1",
+"zipball_url": "https://api.github.com/repos/karlpokus/console.mute/zipball/v0.1",
+"body": ""
+}
+},
+"public": true,
+"created_at": "2016-07-03T19:20:25Z"
+},
+{
+"id": "4228264871",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"push_id": 1186689288,
+"size": 2,
+"distinct_size": 2,
+"ref": "refs/heads/master",
+"head": "fde99c52c02a876b9afa3be870fb1005ab23dc63",
+"before": "f865aa79da531dd428824fd71b30b46cca830357",
+"commits": [
+{
+"sha": "4c2e912d18aa2dac7a7f3c38e38d17abcddcbba4",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add npm badge",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/4c2e912d18aa2dac7a7f3c38e38d17abcddcbba4"
+},
+{
+"sha": "fde99c52c02a876b9afa3be870fb1005ab23dc63",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add travis",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/fde99c52c02a876b9afa3be870fb1005ab23dc63"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-03T19:17:39Z"
+},
+{
+"id": "4228254771",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"push_id": 1186685374,
+"size": 4,
+"distinct_size": 4,
+"ref": "refs/heads/master",
+"head": "f865aa79da531dd428824fd71b30b46cca830357",
+"before": "4a45bacf1f1cc5c15ae69cb6ae7e5baabe01066d",
+"commits": [
+{
+"sha": "9ec57f194b1f1c883a0b070e20364b5daef93750",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "main",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/9ec57f194b1f1c883a0b070e20364b5daef93750"
+},
+{
+"sha": "e8b1bc5ee8f36f6a0bcc4092209cca27cbc37657",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add the basics",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/e8b1bc5ee8f36f6a0bcc4092209cca27cbc37657"
+},
+{
+"sha": "4c18a45eea47d33dac622b473e01033532ff488e",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "npm init",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/4c18a45eea47d33dac622b473e01033532ff488e"
+},
+{
+"sha": "f865aa79da531dd428824fd71b30b46cca830357",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "add tests",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/console.mute/commits/f865aa79da531dd428824fd71b30b46cca830357"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-03T19:09:20Z"
+},
+{
+"id": "4228189782",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"ref": "master",
+"ref_type": "branch",
+"master_branch": "master",
+"description": "Temporarily mute the log. Resume and retrieve logged data later. For node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-03T18:15:28Z"
+},
+{
+"id": "4228189766",
+"type": "CreateEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62509286,
+"name": "karlpokus/console.mute",
+"url": "https://api.github.com/repos/karlpokus/console.mute"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "Temporarily mute the log. Resume and retrieve logged data later. For node.js",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2016-07-03T18:15:27Z"
+},
+{
+"id": "4227610932",
+"type": "IssuesEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 16319759,
+"name": "sfarthin/intercept-stdout",
+"url": "https://api.github.com/repos/sfarthin/intercept-stdout"
+},
+"payload": {
+"action": "opened",
+"issue": {
+"url": "https://api.github.com/repos/sfarthin/intercept-stdout/issues/8",
+"repository_url": "https://api.github.com/repos/sfarthin/intercept-stdout",
+"labels_url": "https://api.github.com/repos/sfarthin/intercept-stdout/issues/8/labels{/name}",
+"comments_url": "https://api.github.com/repos/sfarthin/intercept-stdout/issues/8/comments",
+"events_url": "https://api.github.com/repos/sfarthin/intercept-stdout/issues/8/events",
+"html_url": "https://github.com/sfarthin/intercept-stdout/issues/8",
+"id": 163555265,
+"number": 8,
+"title": "Feature request: mute",
+"user": {
+"login": "karlpokus",
+"id": 2376199,
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?v=3",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"html_url": "https://github.com/karlpokus",
+"followers_url": "https://api.github.com/users/karlpokus/followers",
+"following_url": "https://api.github.com/users/karlpokus/following{/other_user}",
+"gists_url": "https://api.github.com/users/karlpokus/gists{/gist_id}",
+"starred_url": "https://api.github.com/users/karlpokus/starred{/owner}{/repo}",
+"subscriptions_url": "https://api.github.com/users/karlpokus/subscriptions",
+"organizations_url": "https://api.github.com/users/karlpokus/orgs",
+"repos_url": "https://api.github.com/users/karlpokus/repos",
+"events_url": "https://api.github.com/users/karlpokus/events{/privacy}",
+"received_events_url": "https://api.github.com/users/karlpokus/received_events",
+"type": "User",
+"site_admin": false
+},
+"labels": [],
+"state": "open",
+"locked": false,
+"assignee": null,
+"assignees": [],
+"milestone": null,
+"comments": 0,
+"created_at": "2016-07-03T09:52:43Z",
+"updated_at": "2016-07-03T09:52:43Z",
+"closed_at": null,
+"body": "Thanks for sharing your module! I'm looking for a way to both intercept and mute the log. By commenting out [this line](https://github.com/sfarthin/intercept-stdout/blob/master/intercept-stdout.js#L26) I think it would work.\r\n\r\nWould you be interested in a PR or should I fork?"
+}
+},
+"public": true,
+"created_at": "2016-07-03T09:52:43Z"
+},
+{
+"id": "4227518117",
+"type": "WatchEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 16319759,
+"name": "sfarthin/intercept-stdout",
+"url": "https://api.github.com/repos/sfarthin/intercept-stdout"
+},
+"payload": {
+"action": "started"
+},
+"public": true,
+"created_at": "2016-07-03T08:11:46Z"
+},
+{
+"id": "4226128246",
+"type": "PushEvent",
+"actor": {
+"id": 2376199,
+"login": "karlpokus",
+"display_login": "karlpokus",
+"gravatar_id": "",
+"url": "https://api.github.com/users/karlpokus",
+"avatar_url": "https://avatars.githubusercontent.com/u/2376199?"
+},
+"repo": {
+"id": 62403017,
+"name": "karlpokus/klocka",
+"url": "https://api.github.com/repos/karlpokus/klocka"
+},
+"payload": {
+"push_id": 1185844302,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "d8f02ebaeff893c38ecf58b3950b31bb638c69d9",
+"before": "92ad4b94d449b6425a8edc6b920f27144e9ae2aa",
+"commits": [
+{
+"sha": "d8f02ebaeff893c38ecf58b3950b31bb638c69d9",
+"author": {
+"email": "karl.pokus@gmail.com",
+"name": "Karl Pokus"
+},
+"message": "bump version",
+"distinct": true,
+"url": "https://api.github.com/repos/karlpokus/klocka/commits/d8f02ebaeff893c38ecf58b3950b31bb638c69d9"
+}
+]
+},
+"public": true,
+"created_at": "2016-07-02T08:10:44Z"
+}
+]
