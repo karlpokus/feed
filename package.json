@@ -1,0 +1,28 @@
+{
+  "name": "feed",
+  "version": "0.1.0",
+  "description": "A single feed with multiple APIs for a single user",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/feed.git"
+  },
+  "keywords": [
+    "feed",
+    "api",
+    "user"
+  ],
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/feed/issues"
+  },
+  "homepage": "https://github.com/karlpokus/feed#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
+}
