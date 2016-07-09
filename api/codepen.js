@@ -4,34 +4,34 @@ var fs = require('fs'),
     //url = 'http://codepen.io/KarlPokus/public/feed/',
     cheerio = require('cheerio');
 
-module.exports = function(cb) {
-  
+module.exports = function(req, res, next) {
+
   // temp read from file
   fs.readFile(path.join(__dirname, '..', 'temp/codepen.html'), 'utf8', function(err, data) {
     if (err) return cb(err);
-    
+
     var pens = [],
         $ = cheerio.load(data);
-    
+
     $('item').each(function(){
         pens.push({
           title: $(this).find('title').text(),
-          url: $(this).find('link').text(),
+          url: $(this).find('guid').text(),
           ts: $(this).find('dc\\:date').text()
         });
       });
 
     // [XXXX-XX-XX] edited <title> OR <url>
-    pens.map(function(o){
-      o.dateString = "[" + o.ts.substr(0, 10) + "]"
-      o.str = o.dateString + ' edited ' + o.title;
+    req.pens = pens.map(function(o){
+      var dateString = "[" + o.ts.substr(0, 10) + "]"
+      o.str = dateString + ' edited ' + o.title;
       return o;
     });
-    
-    cb(null, pens);
-    
+
+    return next();
+
   });
-  
+
   /*
   http.get(url, function(res){
 
@@ -59,5 +59,5 @@ module.exports = function(cb) {
     cb(err);
   });
   */
-  
+
 }

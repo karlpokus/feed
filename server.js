@@ -1,30 +1,34 @@
 var http = require("http"),
     fs = require('fs'),
     cheerio = require('cheerio'),
+    // lib
+    pype = require('./lib/pype'),
+    concat = require('./lib/concat'),
+    index = require('./lib/index'),
+    sort = require('./lib/sort'),
+    // api
     pens = require('./api/codepen'),
     gits = require('./api/github');
     //server = http.createServer();
 
-// TESTs
-pens(function(err, data){
-  if (err) throw err;
-  
-  data.forEach(function(o){
-    console.log(o.str);
-  });
-});
+function errorhandler(err, req, res) {
+  console.log('err', err);
+}
 
-gits(function(err, data){
-  if (err) throw err;
-  
-  data.forEach(function(o){
-    if (o.str) {
+// test
+pype(null, {}, {},
+  //[codepen, gists, concat, index, sort, html],
+  [pens, gits, concat, index, sort],
+  errorhandler,
+  function(req, res){
+    //res.setHeader("Content-Type", "text/html");
+    //res.end(req.html);
+    req.items.forEach(function(o){
       console.log(o.str);
-    }    
-  });
-});
+    });
+})();
 
-// order
+
 
 /*
 server.on("request", function(req, res) {
