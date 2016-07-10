@@ -11,13 +11,14 @@ $ git clone [this repo]
 # What I'm aiming for
 $ tail <something> -u <userName> [linked list of api:s]
 [XXXX-XX-XX] <verb> <object> on <repo>
+...
 ```
 
 # todos
 - stream from fs
 - ~~normalize ts for each api~~
 - anchors in items
-- randomize <something>
+- ~~randomize <something>~~
 - make actual requests to api:s
 - ~~async or pipe for multiple api fetching~~
 - make pype a module
