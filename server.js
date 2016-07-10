@@ -1,54 +1,23 @@
-var http = require("http"),
-    fs = require('fs'),
-    cheerio = require('cheerio'),
-    // lib
-    pype = require('./lib/pype'),
+var pype = require('./lib/pype'),
     concat = require('./lib/concat'),
     index = require('./lib/index'),
     sort = require('./lib/sort'),
-    // api
+    html = require('./lib/html'),
     pens = require('./api/codepen'),
-    gits = require('./api/github');
-    //server = http.createServer();
+    gits = require('./api/github'),
+    http = require("http"),
+    server = http.createServer(),
+    errorhandler = function(err, req, res) {
+      res.end(err);
+    },
+    finalHandler = function(req, res) {
+      res.setHeader("Content-Type", "text/html");
+      res.end(req.html);
+    },
+    requestHandler = pype(null, [pens, gits, concat, index, sort, html, finalHandler], errorhandler);
 
-function errorhandler(err, req, res) {
-  console.log('err', err);
-}
-
-// test
-pype(null, {}, {},
-  //[codepen, gists, concat, index, sort, html],
-  [pens, gits, concat, index, sort],
-  errorhandler,
-  function(req, res){
-    //res.setHeader("Content-Type", "text/html");
-    //res.end(req.html);
-    req.items.forEach(function(o){
-      console.log(o.str);
-    });
-})();
-
-
-
-/*
-server.on("request", function(req, res) {
-
-  // todo: make this a stream
-  fs.readFile('./index.html', 'utf8', function(err, data) {
-    if (err) throw err;
-
-    var $ = cheerio.load(data);
-    var li = "<li>Much li is here</li>"
-    $('ul').append(li);
-
-    res.setHeader("Content-Type", "text/html");
-    res.end($.html());
-
-  });
-
-});
+server.on('request', requestHandler);
 
 server.listen(3000, function() {
   console.log('Server running..');
 });
-*/
