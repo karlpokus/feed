@@ -6,7 +6,11 @@ module.exports = function(req, res, next) {
   req.gits = data.map(function(o){
     // dateString
     o.dateString = "[" + o.created_at.substr(0, 10) + "]";
+    // normalize ts
+    o.ts = o.created_at;
+
     // [XXXX-XX-XX] <verb> to <repo>
+    
     // pushed <message> to <repo.name>
     if (o.type === 'PushEvent') {
       o.str = o.dateString + ' pushed ' + o.payload.size + ' commit(s) to ' + o.repo.name;

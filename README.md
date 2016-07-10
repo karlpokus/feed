@@ -15,7 +15,7 @@ $ tail <something> -u <userName> [linked list of api:s]
 
 # todos
 - stream from fs
-- normalize ts in each api.js
+- ~~normalize ts for each api~~
 - anchors in items
 - randomize <something>
 - make actual requests to api:s
@@ -28,6 +28,7 @@ $ tail <something> -u <userName> [linked list of api:s]
 - error handling for http and helpers
 - use Etag for api:s that support them
 - try more api:s
+- add test
 
 # LICENCE
 MIT
