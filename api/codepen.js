@@ -23,8 +23,10 @@ module.exports = function(req, res, next) {
 
     // [XXXX-XX-XX] edited <title> OR <url>
     req.pens = pens.map(function(o){
-      var dateString = "[" + o.ts.substr(0, 10) + "]"
-      o.str = dateString + ' edited ' + o.title;
+      var dateString = `[${o.ts.substr(0, 10)}]`,
+          verb = ' edited ',
+          subject = `<a href="${o.url}" target="_blank">${o.title}</a>`;
+      o.str = dateString + verb + subject;
       return o;
     });
 
