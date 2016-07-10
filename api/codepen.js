@@ -8,7 +8,7 @@ module.exports = function(req, res, next) {
 
   // temp read from file
   fs.readFile(path.join(__dirname, '..', 'temp/codepen.html'), 'utf8', function(err, data) {
-    if (err) return cb(err);
+    if (err) return next(err);
 
     var pens = [],
         $ = cheerio.load(data);
@@ -29,7 +29,6 @@ module.exports = function(req, res, next) {
     });
 
     return next();
-
   });
 
   /*
