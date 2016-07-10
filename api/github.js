@@ -9,7 +9,7 @@ module.exports = function(req, res, next) {
     // [XXXX-XX-XX] <verb> to <repo>
     // pushed <message> to <repo.name>
     if (o.type === 'PushEvent') {
-      o.str = o.dateString + ' pushed ' + o.payload.size + ' commits to ' + o.repo.name;
+      o.str = o.dateString + ' pushed ' + o.payload.size + ' commit(s) to ' + o.repo.name;
     }
     // created <ref_type> on <repo.name>
     if (o.type === 'CreateEvent') {
