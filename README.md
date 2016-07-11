@@ -17,9 +17,11 @@ $ tail <something> -u <userName> [linked list of api:s]
 # todos
 - stream from fs
 - ~~normalize ts for each api~~
-- anchors in items
-- ~~randomize <something>~~
+- ~~anchors in items~~ ~~codepen~~ ~~github~~
+- ~~randomize something~~
 - make actual requests to api:s
+- more events for github
+- remove username from repo?
 - ~~async or pipe for multiple api fetching~~
 - make pype a module
 - display on letter at a time - like a ticker
