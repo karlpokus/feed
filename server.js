@@ -13,10 +13,12 @@ var pype = require('./lib/pype'),
     finalHandler = function(req, res) {
       res.setHeader("Content-Type", "text/html");
       res.end(req.html);
-    },
-    requestHandler = pype(null, [pens, gits, concat, index, sort, html, finalHandler], errorhandler);
+    };
 
-server.on('request', requestHandler);
+server.on('request', function(req, res){
+  var requestHandler = pype(null, [pens, gits, concat, index, sort, html, finalHandler], errorhandler);
+  requestHandler(req, res);
+});
 
 server.listen(3000, function() {
   console.log('Server running..');
