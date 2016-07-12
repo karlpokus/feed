@@ -1,0 +1,310 @@
+{
+  "items": [
+    {
+      "comment_id": 64030654,
+      "post_id": 38294640,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1468240505,
+      "link": "http://stackoverflow.com/questions/38292289/how-does-the-callback-to-the-servers-request-event-work-in-node-js/38294640#comment64030654_38294640",
+      "detail": "Hi @jfriend00! Those damn incrementors. Always forget to reset them Good catch! You're right about the cyrring. Not needed at all. Just an experiment but not particularly readable. I was just trying to save a few lines by passing the requestHandler to the emit event instead of the body of the callback but as you pointed out this will clash on multiple simultaneous requests.TIL! Thanks a bunch. Really well explained. You should consider teaching! :D",
+      "title": "How does the callback to the servers `request event` work in node.js?"
+    },
+    {
+      "comment_id": 64029407,
+      "post_id": 38292289,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "question",
+      "creation_date": 1468238782,
+      "link": "http://stackoverflow.com/questions/38292289/how-does-the-callback-to-the-servers-request-event-work-in-node-js#comment64029407_38292289",
+      "detail": "@MadaraUchiha You're right on the readability. This is only an experiment. I don't think passing `req` and `res` to `run` would work though. They are needed in the body of `next` too.",
+      "title": "How does the callback to the servers `request event` work in node.js?"
+    },
+    {
+      "post_id": 38294640,
+      "user_id": 1983554,
+      "timeline_type": "accepted",
+      "post_type": "answer",
+      "creation_date": 1468171821,
+      "link": "http://stackoverflow.com/questions/38292289/how-does-the-callback-to-the-servers-request-event-work-in-node-js/38294640#38294640",
+      "title": "How does the callback to the servers `request event` work in node.js?"
+    },
+    {
+      "post_id": 38292289,
+      "user_id": 1983554,
+      "timeline_type": "asked",
+      "post_type": "question",
+      "creation_date": 1468156666,
+      "link": "http://stackoverflow.com/questions/38292289/how-does-the-callback-to-the-servers-request-event-work-in-node-js",
+      "title": "How does the callback to the servers `request event` work in node.js?"
+    },
+    {
+      "comment_id": 63754147,
+      "post_id": 38159709,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "question",
+      "creation_date": 1467482786,
+      "link": "http://stackoverflow.com/questions/38159709/add-eventlistener-to-http-server-before-calling-createserver#comment63754147_38159709",
+      "detail": "Good tip! but that module starts the timer after express runs two of its own first. I am trying to find a way to start on the servers request event.",
+      "title": "Add eventListener to http.Server before calling createServer?"
+    },
+    {
+      "post_id": 38159709,
+      "user_id": 1983554,
+      "timeline_type": "asked",
+      "post_type": "question",
+      "creation_date": 1467459454,
+      "link": "http://stackoverflow.com/questions/38159709/add-eventlistener-to-http-server-before-calling-createserver",
+      "title": "Add eventListener to http.Server before calling createServer?"
+    },
+    {
+      "post_id": 37973312,
+      "user_id": 1983554,
+      "timeline_type": "answered",
+      "post_type": "answer",
+      "creation_date": 1466611958,
+      "link": "http://stackoverflow.com/questions/16478552/convert-objectid-mongodb-to-string-in-javascript/37973312#37973312",
+      "title": "Convert ObjectID (Mongodb) to String in JavaScript"
+    },
+    {
+      "comment_id": 63012681,
+      "post_id": 37769182,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1465721277,
+      "link": "http://stackoverflow.com/questions/37768720/passing-errors-to-client-in-express/37769182#comment63012681_37769182",
+      "detail": "NODE_ENV=production does not help. I've tried it.",
+      "title": "Passing errors to client in express"
+    },
+    {
+      "post_id": 37768720,
+      "user_id": 1983554,
+      "timeline_type": "asked",
+      "post_type": "question",
+      "creation_date": 1465681043,
+      "link": "http://stackoverflow.com/questions/37768720/passing-errors-to-client-in-express",
+      "title": "Passing errors to client in express"
+    },
+    {
+      "badge_id": 9,
+      "user_id": 1983554,
+      "timeline_type": "badge",
+      "creation_date": 1411591665,
+      "link": "http://stackoverflow.com/badges/9/autobiographer?userId=1983554",
+      "detail": "Autobiographer"
+    },
+    {
+      "post_id": 25549465,
+      "user_id": 1983554,
+      "timeline_type": "answered",
+      "post_type": "answer",
+      "creation_date": 1409230824,
+      "link": "http://stackoverflow.com/questions/18290255/how-do-you-check-which-version-of-meteor-you-are-running/25549465#25549465",
+      "title": "How do you check which version of Meteor you are running?"
+    },
+    {
+      "comment_id": 31889972,
+      "post_id": 21167123,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "question",
+      "creation_date": 1389949057,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence#comment31889972_21167123",
+      "detail": "Yes. But does not have to.",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "comment_id": 31865046,
+      "post_id": 21167245,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389890854,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence/21167245#comment31865046_21167245",
+      "detail": "How cool is that? Never seen it before. Thanks!",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "badge_id": 6,
+      "user_id": 1983554,
+      "timeline_type": "badge",
+      "creation_date": 1389890482,
+      "link": "http://stackoverflow.com/badges/6/supporter?userId=1983554",
+      "detail": "Supporter"
+    },
+    {
+      "badge_id": 31,
+      "user_id": 1983554,
+      "timeline_type": "badge",
+      "creation_date": 1389890482,
+      "link": "http://stackoverflow.com/badges/31/commentator?userId=1983554",
+      "detail": "Commentator"
+    },
+    {
+      "comment_id": 31864695,
+      "post_id": 21167245,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389890384,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence/21167245#comment31864695_21167245",
+      "detail": "What are those !! doing in the beginning? Is that js?",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "comment_id": 31864647,
+      "post_id": 21167493,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389890310,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence/21167493#comment31864647_21167493",
+      "detail": "nope. Does not work.",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "comment_id": 31864600,
+      "post_id": 21167208,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389890254,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence/21167208#comment31864600_21167208",
+      "detail": "Awesome! It works. Thank you! Damn you guys are fast.",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "badge_id": 2,
+      "post_id": 21167123,
+      "user_id": 1983554,
+      "timeline_type": "badge",
+      "post_type": "question",
+      "creation_date": 1389889282,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence",
+      "detail": "Student",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "post_id": 21167208,
+      "user_id": 1983554,
+      "timeline_type": "accepted",
+      "post_type": "answer",
+      "creation_date": 1389889275,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence/21167208#21167208",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "post_id": 21167123,
+      "user_id": 1983554,
+      "timeline_type": "asked",
+      "post_type": "question",
+      "creation_date": 1389889057,
+      "link": "http://stackoverflow.com/questions/21167123/regex-match-repeated-character-not-in-sequence",
+      "title": "Regex - Match repeated character not in sequence"
+    },
+    {
+      "comment_id": 31555652,
+      "post_id": 20995939,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389192142,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995939#comment31555652_20995939",
+      "detail": "Yeah. Got it. Works great. Thanks!",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31555591,
+      "post_id": 20995938,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389192060,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995938#comment31555591_20995938",
+      "detail": "Thank you for the details. Kinda tricky. Gotta read up on this.",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31555406,
+      "post_id": 20995929,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389191837,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995929#comment31555406_20995929",
+      "detail": "@MatthewMcveigh Works great! Much cleaner code. Yum!",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31553552,
+      "post_id": 20995890,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "question",
+      "creation_date": 1389189248,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous#comment31553552_20995890",
+      "detail": "@Bergi Could be. I read it but did not get it.",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31553506,
+      "post_id": 20995939,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389189181,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995939#comment31553506_20995939",
+      "detail": "So how do I access the event object?",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31553441,
+      "post_id": 20995938,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389189087,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995938#comment31553441_20995938",
+      "detail": "So the event object is only available in the anonymous function?",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "comment_id": 31553362,
+      "post_id": 20995929,
+      "user_id": 1983554,
+      "timeline_type": "commented",
+      "post_type": "answer",
+      "creation_date": 1389188966,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995929#comment31553362_20995929",
+      "detail": "Thanks! I think I get it. I got \"calling a function\" and \"displaying the result of the function\" mixed up. But how do I keep the event object? I need to do preventDefault on it? Is there a third parimeter (bool set to false) I can use? or does that return false instead?",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "badge_id": 10,
+      "post_id": 20995890,
+      "user_id": 1983554,
+      "timeline_type": "badge",
+      "post_type": "question",
+      "creation_date": 1389188890,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous",
+      "detail": "Scholar",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    },
+    {
+      "post_id": 20995929,
+      "user_id": 1983554,
+      "timeline_type": "accepted",
+      "post_type": "answer",
+      "creation_date": 1389184801,
+      "link": "http://stackoverflow.com/questions/20995890/why-must-callbacks-in-jquery-be-anonomous/20995929#20995929",
+      "title": "Why must callbacks in jQuery be anonomous?"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9997
+}
