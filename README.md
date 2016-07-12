@@ -26,7 +26,9 @@ $ tail <something> -u <userName> [linked list of api:s]
 - display on letter at a time - like a ticker
 - let a user input username?
 - add unix pager to ul
-- namespace middleware storage and new props on single items - init @0
+- ~~namespace middleware storage~~
+- namespace new props on single items
+- use this in pype for storage? Needs arrow fns for lexical this
 - error handling for http and helpers
 - use Etag for api:s that support them
 - ~~try so api~~

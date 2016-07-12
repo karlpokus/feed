@@ -3,7 +3,7 @@ var path = require("path"),
 
 module.exports = function(req, res, next) {
 
-  req.so = data.items.map(function(o){
+  var mapped = data.items.map(function(o){
     var ms = o.creation_date *1000,
         d = new Date(ms),
         dateString = `[${d.toJSON().substr(0, 10)}]`;
@@ -35,5 +35,7 @@ module.exports = function(req, res, next) {
     }
     return o;
   });
+
+  req.items = req.items.concat(mapped);
   return next();
 };

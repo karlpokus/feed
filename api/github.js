@@ -2,15 +2,11 @@ var path = require("path"),
     data = require(path.join(__dirname, '..', 'temp/github.json'));
 
 module.exports = function(req, res, next) {
-
   var dateString, repoLink, commits, commentLink, commentURL, comment;
 
-  req.gits = data.map(function(o){
-    // dateString
+  var mapped = data.map(function(o){
     dateString = `[${o.created_at.substr(0, 10)}]`;
-    // normalize ts
-    o.ts = o.created_at;
-    // repo anchor
+    o.ts = o.created_at; // normalize ts
     repoLink = `<a href="${o.repo.url}" target="_blank">${o.repo.name}</a>`;
 
     // [XXXX-XX-XX] <verb> to <repo>
@@ -46,5 +42,6 @@ module.exports = function(req, res, next) {
     return o;
   });
 
+  req.items = req.items.concat(mapped);
   return next();
 };

@@ -1,5 +1,5 @@
 var pype = require('./lib/pype'),
-    concat = require('./lib/concat'),
+    init = require('./lib/init'),
     index = require('./lib/index'),
     sort = require('./lib/sort'),
     html = require('./lib/html'),
@@ -15,7 +15,7 @@ var pype = require('./lib/pype'),
       res.setHeader("Content-Type", "text/html");
       res.end(req.html);
     },
-    stack = [pens, gits, sos, concat, index, sort, html, finalHandler];
+    stack = [init, pens, gits, sos, index, sort, html, finalHandler];
 
 server.on('request', function(req, res){
   var requestHandler = pype(null, stack, errorhandler);

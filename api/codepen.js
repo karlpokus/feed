@@ -22,7 +22,7 @@ module.exports = function(req, res, next) {
       });
 
     // [XXXX-XX-XX] edited <title> OR <url>
-    req.pens = pens.map(function(o){
+    var mapped = pens.map(function(o){
       var dateString = `[${o.ts.substr(0, 10)}]`,
           verb = ' edited ',
           subject = `<a href="${o.url}" target="_blank">${o.title}</a>`;
@@ -30,6 +30,7 @@ module.exports = function(req, res, next) {
       return o;
     });
 
+    req.items = req.items.concat(mapped);
     return next();
   });
 
