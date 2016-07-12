@@ -19,18 +19,17 @@ $ tail <something> -u <userName> [linked list of api:s]
 - ~~normalize ts for each api~~
 - ~~anchors in items~~ ~~codepen~~ ~~github~~
 - ~~randomize something~~
-- make actual requests to api:s
-- more events for github
-- remove username from repo?
+- make actual requests to APIs
+- more events for github - PR?
 - ~~async or pipe for multiple api fetching~~
 - make pype a module
 - display on letter at a time - like a ticker
 - let a user input username?
 - add unix pager to ul
-- namespace middleware storage and new props on single items
+- namespace middleware storage and new props on single items - init @0
 - error handling for http and helpers
 - use Etag for api:s that support them
-- try more api:s
+- ~~try so api~~
 - add test
 
 # LICENCE
