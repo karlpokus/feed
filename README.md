@@ -7,15 +7,15 @@ $ git clone [this repo]
 ```
 
 # UI
-```
-# What I'm aiming for
-$ tail <something> -u <userName> [linked list of api:s]
-[XXXX-XX-XX] <verb> <object> on <repo>
+```bash
+# The general list we're aiming for
+[XXXX-XX-XX] <verb> <object> on <repo-or-equivalent>
 ...
 ```
 
 # todos
 - stream from fs
+- async parallell all the APIs
 - ~~normalize ts for each api~~
 - ~~anchors in items~~ ~~codepen~~ ~~github~~
 - ~~randomize something~~
