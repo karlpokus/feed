@@ -2,7 +2,7 @@
 A single feed with multiple APIs for a single user [WIP]. Sorting entries by timestamp.
 
 # usage
-```
+```bash
 $ git clone [this repo]
 ```
 
@@ -11,6 +11,11 @@ $ git clone [this repo]
 # The general list we're aiming for
 [XXXX-XX-XX] <verb> <object> on <repo-or-equivalent>
 ...
+```
+
+# test
+```bash
+$ npm test
 ```
 
 # todos
@@ -32,7 +37,7 @@ $ git clone [this repo]
 - error handling for http and helpers
 - use Etag for api:s that support them
 - ~~try so api~~
-- add test
+- add more test
 
 # LICENCE
 MIT
