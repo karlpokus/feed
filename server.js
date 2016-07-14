@@ -18,8 +18,7 @@ var pype = require('./lib/pype'),
     stack = [init, pens, gits, sos, index, sort, html, finalHandler];
 
 server.on('request', function(req, res){
-  var requestHandler = pype(null, stack, errorhandler);
-  requestHandler(req, res);
+  pype(null, stack, errorhandler)(req, res);  
 });
 
 server.listen(3000, function() {
