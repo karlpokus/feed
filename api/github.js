@@ -2,12 +2,14 @@ var path = require("path"),
     data = require(path.join(__dirname, '..', 'temp/github.json'));
 
 module.exports = function(req, res, next) {
-  var dateString, repoLink, commits, commentLink, commentURL, comment;
+  var dateString, link, repoName, repoLink, commits, commentLink, commentURL, comment;
 
   var mapped = data.map(function(o){
-    dateString = `[${o.created_at.substr(0, 10)}]`;
+    dateString = `[${o.created_at.substr(0, 10)}][github] `;
     o.ts = o.created_at; // normalize ts
-    repoLink = `<a href="${o.repo.url}" target="_blank">${o.repo.name}</a>`;
+    link = `https://github.com/${o.repo.name}`;
+    repoName = o.repo.name.split('/')[1];
+    repoLink = `<a href="${link}" target="_blank">${repoName}</a>`;
 
     // [XXXX-XX-XX] <verb> to <repo>
 
@@ -27,7 +29,7 @@ module.exports = function(req, res, next) {
     // <comment.body> to <repo.name>
     if (o.type === 'CommitCommentEvent') {
       commentURL = o.payload.comment.html_url;
-      comment = o.payload.comment.body.substr(0, 50);
+      comment = o.payload.comment.body.substr(0, 75);
       commentLink = `<a href="${commentURL}" target="_blank">${comment}</a>`;
       o.str = `${dateString} ${commentLink}..`;
     }
