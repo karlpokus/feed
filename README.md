@@ -32,8 +32,6 @@ $ npm test
 - let a user input username?
 - add unix pager to ul
 - ~~namespace middleware storage~~
-- namespace new props on single items
-- use this in pype for storage? Needs arrow fns for lexical this
 - error handling for http and helpers
 - use Etag for api:s that support them
 - ~~try so api~~
