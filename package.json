@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/karlpokus/feed#readme",
   "dependencies": {
-    "cheerio": "^0.20.0"
+    "cheerio": "^0.20.0",
+    "pype-stack": "*"
   },
   "devDependencies": {
     "tape": "^4.6.0"

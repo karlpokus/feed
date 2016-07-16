@@ -1,4 +1,4 @@
-var pype = require('./lib/pype'),
+var pype = require('pype-stack'),
     init = require('./lib/init'),
     index = require('./lib/index'),
     sort = require('./lib/sort'),
@@ -18,7 +18,7 @@ var pype = require('./lib/pype'),
     stack = [init, pens, gits, sos, index, sort, html, finalHandler];
 
 server.on('request', function(req, res){
-  pype(null, stack, errorhandler)(req, res);  
+  pype(null, stack, errorhandler)(req, res);
 });
 
 server.listen(3000, function() {

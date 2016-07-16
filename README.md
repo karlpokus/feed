@@ -27,7 +27,7 @@ $ npm test
 - make actual requests to APIs
 - more events for github - PR?
 - ~~async or pipe for multiple api fetching~~
-- make pype a module
+- ~~make pype a module~~
 - display on letter at a time - like a ticker
 - let a user input username?
 - add unix pager to ul
