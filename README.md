@@ -30,10 +30,12 @@ $ npm test
 - ~~make pype a module~~
 - display on letter at a time - like a ticker
 - let a user input username?
+- multiple users per feed -> apiName/username
 - add unix pager to ul
 - ~~namespace middleware storage~~
 - error handling for http and helpers
 - use Etag for api:s that support them
+- use cache
 - ~~try so api~~
 - add more test
 
