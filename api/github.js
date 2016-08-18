@@ -1,5 +1,5 @@
 var path = require("path"),
-    data = require(path.join(__dirname, '..', 'temp/github.json'));
+    data = require(path.join(__dirname, '..', 'temp/github2.json'));
 
 module.exports = function(req, res, next) {
   var dateString, link, repoName, repoLink, commits, commentLink, commentURL, comment;
@@ -27,7 +27,7 @@ module.exports = function(req, res, next) {
       o.str = `${dateString} ${o.payload.action} ${o.payload.release.name} to ${repoLink}`;
     }
     // <comment.body> to <repo.name>
-    if (o.type === 'CommitCommentEvent') {
+    if (o.type === 'CommitCommentEvent' || o.type === 'IssueCommentEvent') {
       commentURL = o.payload.comment.html_url;
       comment = o.payload.comment.body.substr(0, 75);
       commentLink = `<a href="${commentURL}" target="_blank">${comment}</a>`;
