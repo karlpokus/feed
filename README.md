@@ -3,7 +3,7 @@ A single feed with multiple APIs for a single user [WIP]. Sorting entries by tim
 
 # usage
 ```bash
-$ git clone [this repo]
+$ git clone [repo]
 ```
 
 # UI
@@ -19,25 +19,15 @@ $ npm test
 ```
 
 # todos
-- stream from fs
-- async parallell all the APIs
-- ~~normalize ts for each api~~
-- ~~anchors in items~~ ~~codepen~~ ~~github~~
-- ~~randomize something~~
-- make actual requests to APIs
-- more events for github - PR?
-- ~~async or pipe for multiple api fetching~~
-- ~~make pype a module~~
-- display on letter at a time - like a ticker
-- let a user input username?
-- multiple users per feed -> apiName/username
-- add unix pager to ul
-- ~~namespace middleware storage~~
-- error handling for http and helpers
-- use Etag for api:s that support them
-- use cache
-- ~~try so api~~
-- add more test
+- [x] async parallell all the APIs - see `node-apps/aync-parallel-test` (sic)
+- [x] normalize ts for each api~~
+- [x] anchors in items
+- [x] make pype a module
+- [ ] so token
+- [ ] npm module
+- [ ] send basic html and poll to `/feed` for initial data and updates
+- [x] namespace middleware storage
+- [ ] use cache and Etag for api:s that support them
 
 # LICENCE
 MIT
